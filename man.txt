@@ -1,0 +1,9 @@
+usage: ./homeseay.sh [--version] [--help]
+
+up        : Start homeseay machine
+pause     : Pause homeseay machine
+resume    : Resume homeseay machine
+save      : Save of the homeseay machine and then stop it
+reboot    : Reset homeseay machine
+stop      : Power off homeseay machine
+sHomeseay : ssh connection with homestay machine
