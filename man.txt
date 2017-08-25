@@ -6,4 +6,5 @@ resume    : Resume homeseay machine
 save      : Save of the homeseay machine and then stop it
 reboot    : Reset homeseay machine
 stop      : Power off homeseay machine
+ip	  : Get ip of your homeseay machine
 sHomeseay : ssh connection with homestay machine

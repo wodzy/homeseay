@@ -28,6 +28,9 @@ case $cmd in
     stop)
     VboxManage controlvm $machine poweroff
         ;;
+    ip)
+    vboxmanage guestproperty enumerate $machine |grep IP|cut -f2 -d,|cut -f2 -d:
+        ;;    
     sHomeseay)
     ssh "$sshUser@$ip"
     ;;
