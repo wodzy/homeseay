@@ -44,4 +44,4 @@ case $cmd in
     *)
     echo "$(tput setaf 1) Parameters required. Use $(tput setaf 7) See 'homeseay --help'."
         ;;
-    esac
+esac
