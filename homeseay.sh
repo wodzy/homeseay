@@ -31,7 +31,7 @@ case $cmd in
     ip)
     vboxmanage guestproperty enumerate $machine |grep IP|cut -f2 -d,|cut -f2 -d:
         ;;    
-    sHomeseay)
+    ssh)
     ssh "$sshUser@$ip"
     ;;
     --help)

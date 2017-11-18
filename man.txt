@@ -1,10 +1,10 @@
 usage: ./homeseay.sh [--version] [--help]
 
-up        : Start homeseay machine
-pause     : Pause homeseay machine
-resume    : Resume homeseay machine
-save      : Save of the homeseay machine and then stop it
-reboot    : Reset homeseay machine
-stop      : Power off homeseay machine
-ip	  : Get ip of your homeseay machine
-sHomeseay : ssh connection with homestay machine
+up        : Start VM
+pause     : Pause VM
+resume    : Resume VM
+save      : Save of the VM and then stop it
+reboot    : Reset VM
+stop      : Power off VM
+ip	 	  : Get ip of your VM
+ssh       : ssh connection with VM
